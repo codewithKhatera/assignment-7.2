@@ -1,0 +1,141 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav a:hover {
+    color: maroon;
+    margin-top: 5px;
+}
+body {
+    background-color:gray;
+}
+main{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.product-container {
+    height: 800px;
+    background-color: rgb(230, 229, 228);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    width: 78%
+    
+}
+.row img {
+    width: 80%;
+    padding-top: 30px;
+    padding-left: 15px;  
+}
+.promo-code {
+    background-color: rgb(242, 242, 165);
+    border-top: 2px solid balck;
+    border: solid black;
+    height: 35px;
+    width: 285px;
+    text-align: center;
+    margin-left: 14px;
+    margin-top: 25px;  
+}
+.promo-code p{
+    margin-top: 8px;
+}
+.product-detail {
+    width: 80%;
+    text-align: left;
+    display: inline;
+    
+}
+.product-detail h2{
+    margin-left:-30px;
+    padding-top: 15px;
+}
+.product-detail p{
+    margin-left: -30px;
+}
+.related-product img {
+    background-color: blue;
+}
+.second-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.second-row img{
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+    object-fit: cover;
+    opacity: 1;
+}
+.second-row:hover img{
+    opacity: 0.8;
+}
+.header h3{
+    font-size: 30px;
+    white-space: nowrap;
+    margin-left: 15px;
+    margin-top: 55px;
+}
+.related-product {
+    background-color: rgb(235, 235, 192);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    border: 1.5px black solid;  
+}
+.second-row .related-product-name {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(242, 242, 165, 0.419);
+     border: 1px solid rgb(52, 54, 23);
+    padding: 5px;
+    visibility: hidden;
+   
+}
+footer {
+     text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.second-row:hover .related-product-name {
+    visibility: visible;
+}
+.related-product:hover {
+    background-color: rgb(232, 248, 176);
+}
+
+
